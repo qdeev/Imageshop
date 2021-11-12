@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/rec">
+    <file>resources/new_icon.png</file>
+    <file>resources/save_all_icon.png</file>
+    <file>resources/save_icon.png</file>
+    <file>resources/open_icon.png</file>
+  </qresource>
+</RCC>
