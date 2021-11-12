@@ -3,23 +3,31 @@ from PyQt5.QtGui import QColor
 from database import *
 from declarations import *
 
-from PyQt5 import QtCore, QtGui, QtWidgets, uic
+from PyQt5 import QtGui, uic
 from PyQt5.QtWidgets import QMainWindow, QDialog, QInputDialog, QMessageBox, QColorDialog
 from PyQt5.QtWidgets import QFileDialog
 
 from image_processing import Image
 from widgets import TabsW, CanvasW
+from ui.ui_retranslated.MainWindowUI import Ui_MainWindow
+from ui.ui_retranslated.AlphaWindowUI import Ui_AlphaWindow
+from ui.ui_retranslated.ColorWindowUI import Ui_ColorWindow
+from ui.ui_retranslated.DrawWindowUI import Ui_DrawWindow
+from ui.ui_retranslated.ReflectWindowUI import Ui_ReflectWindow
+from ui.ui_retranslated.RotateWindow import Ui_RotateWindow
+from ui.ui_retranslated.SizeDialog import Ui_SizeDialog
 
 
-class MainWindow(QMainWindow):
+class MainWindow(QMainWindow, Ui_MainWindow):
 
     def __init__(self):
         super().__init__()
         self.initUI()
 
     def initUI(self):
-        uic.loadUi(os.path.join('ui', 'ui_files', 'MainWindow.ui'), self)
+        # uic.loadUi(os.path.join('ui', 'ui_files', 'MainWindow.ui'), self)
 
+        self.setupUi(self)
         self.tabs_w = TabsW(self)
         self.canvasLayout.addWidget(self.tabs_w)
 
@@ -183,14 +191,15 @@ class MainWindow(QMainWindow):
        to the functions above"""
 
 
-class DrawWindow(QMainWindow):
+class DrawWindow(QMainWindow, Ui_DrawWindow):
     def __init__(self, *args, parent=None):
         super().__init__(parent)
 
         self.initUI()
 
     def initUI(self):
-        uic.loadUi(os.path.join('ui', 'ui_files', 'DrawWindow.ui'), self)
+        # uic.loadUi(os.path.join('ui', 'ui_files', 'DrawWindow.ui'), self)
+        self.setupUi(self)
 
         self.LineButton.clicked.connect(self.draw_line_window)
         self.SquareButton.clicked.connect(self.draw_square_window)
@@ -214,14 +223,15 @@ class DrawWindow(QMainWindow):
         self.parent().tabs_w.shape = "polygon"
 
 
-class ReflectWindow(QMainWindow):
+class ReflectWindow(QMainWindow, Ui_ReflectWindow):
     def __init__(self, *args, parent=None):
         super().__init__(parent)
 
         self.initUI()
 
     def initUI(self):
-        uic.loadUi(os.path.join('ui', 'ui_files', 'ReflectWindow.ui'), self)
+        # uic.loadUi(os.path.join('ui', 'ui_files', 'ReflectWindow.ui'), self)
+        self.setupUi(self)
 
         self.VerticalButton.clicked.connect(self.vertical_reflection_window)
         self.HorizontalButton.clicked.connect(self.horizontal_reflection_window)
@@ -243,14 +253,15 @@ class ReflectWindow(QMainWindow):
             MainWindow.show_ExceptDialog_no_image()
 
 
-class AlphaWindow(QMainWindow):
+class AlphaWindow(QMainWindow, Ui_AlphaWindow):
     def __init__(self, *args, parent=None):
         super().__init__(parent)
 
         self.initUI()
 
     def initUI(self):
-        uic.loadUi(os.path.join('ui', 'ui_files', 'AlphaWindow.ui'), self)
+        # uic.loadUi(os.path.join('ui', 'ui_files', 'AlphaWindow.ui'), self)
+        self.setupUi(self)
 
         self.AlphaSlider.valueChanged.connect(self.change_alpha_window)
 
@@ -270,14 +281,15 @@ class AlphaWindow(QMainWindow):
             MainWindow.show_ExceptDialog_no_image()
 
 
-class ColorWindow(QMainWindow):
+class ColorWindow(QMainWindow, Ui_ColorWindow):
     def __init__(self, *args, parent=None):
         super().__init__(parent)
 
         self.initUI()
 
     def initUI(self):
-        uic.loadUi(os.path.join('ui', 'ui_files', 'ColorWindow.ui'), self)
+        # uic.loadUi(os.path.join('ui', 'ui_files', 'ColorWindow.ui'), self)
+        self.setupUi(self)
 
         self.RedButton.clicked.connect(self.only_red_window)
         self.GreenButton.clicked.connect(self.only_green_window)
@@ -374,15 +386,15 @@ class ColorWindow(QMainWindow):
         self.destroy()
 
 
-class SizeDialog(QDialog):
+class SizeDialog(QDialog, Ui_SizeDialog):
     def __init__(self, *args, parent=None):
         super().__init__(parent)
 
         self.initUI()
 
     def initUI(self):
-        uic.loadUi(os.path.join('ui', 'ui_files', 'SizeDialog.ui'), self)
-
+        # uic.loadUi(os.path.join('ui', 'ui_files', 'SizeDialog.ui'), self)
+        self.setupUi(self)
         self.pushButton.clicked.connect(self.commit)
 
     def commit(self):
@@ -396,15 +408,15 @@ class SizeDialog(QDialog):
             MainWindow.show_ExceptDialog_no_image()
 
 
-class RotateWindow(QMainWindow):
+class RotateWindow(QMainWindow, Ui_RotateWindow):
     def __init__(self, *args, parent=None):
         super().__init__(parent)
 
         self.initUI()
 
     def initUI(self):
-        uic.loadUi(os.path.join('ui', 'ui_files', 'RotateWidow.ui'), self)
-
+        # uic.loadUi(os.path.join('ui', 'ui_files', 'RotateWidow.ui'), self)
+        self.setupUi(self)
         self.RightButton.clicked.connect(self.rotate_right_window)
         self.LeftButton.clicked.connect(self.rotate_left_window)
 

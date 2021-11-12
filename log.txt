@@ -34987,3 +34987,291 @@
 2021-11-12 12:11:18,403 - new topwidget <windows.AlphaWindow object at 0x000002DE02A1A5E0>
 2021-11-12 12:11:18,403 - pop widget AlphaWindow AlphaWindow
 2021-11-12 12:11:18,403 - new topwidget None
+2021-11-12 12:21:58,861 - uiname is DrawWindow
+2021-11-12 12:21:58,861 - toplevel widget is DrawWindow
+2021-11-12 12:21:58,861 - setting property geometry
+2021-11-12 12:21:58,861 - setting property windowTitle
+2021-11-12 12:21:58,861 - push DrawWindow DrawWindow
+2021-11-12 12:21:58,861 - push QWidget centralwidget
+2021-11-12 12:21:58,861 - setting property geometry
+2021-11-12 12:21:58,861 - push QWidget verticalLayoutWidget
+2021-11-12 12:21:58,861 - setting property pyuicMargins
+2021-11-12 12:21:58,861 - push QVBoxLayout verticalLayout
+2021-11-12 12:21:58,861 - setting property text
+2021-11-12 12:21:58,862 - push QPushButton LineButton
+2021-11-12 12:21:58,862 - pop widget QPushButton LineButton
+2021-11-12 12:21:58,862 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3B88550>
+2021-11-12 12:21:58,862 - setting property text
+2021-11-12 12:21:58,862 - push QPushButton SquareButton
+2021-11-12 12:21:58,862 - pop widget QPushButton SquareButton
+2021-11-12 12:21:58,862 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3B88550>
+2021-11-12 12:21:58,862 - setting property text
+2021-11-12 12:21:58,862 - push QPushButton CircleButton
+2021-11-12 12:21:58,862 - pop widget QPushButton CircleButton
+2021-11-12 12:21:58,862 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3B88550>
+2021-11-12 12:21:58,862 - setting property text
+2021-11-12 12:21:58,862 - push QPushButton PolygonButton
+2021-11-12 12:21:58,862 - pop widget QPushButton PolygonButton
+2021-11-12 12:21:58,862 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3B88550>
+2021-11-12 12:21:58,863 - pop layout QVBoxLayout verticalLayout
+2021-11-12 12:21:58,863 - pop widget QWidget verticalLayoutWidget
+2021-11-12 12:21:58,863 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3B88670>
+2021-11-12 12:21:58,863 - pop widget QWidget centralwidget
+2021-11-12 12:21:58,863 - new topwidget <windows.DrawWindow object at 0x000001D2B3B88790>
+2021-11-12 12:21:58,863 - setting property geometry
+2021-11-12 12:21:58,863 - push QMenuBar menubar
+2021-11-12 12:21:58,863 - pop widget QMenuBar menubar
+2021-11-12 12:21:58,863 - new topwidget <windows.DrawWindow object at 0x000001D2B3B88790>
+2021-11-12 12:21:58,863 - push QStatusBar statusbar
+2021-11-12 12:21:58,863 - pop widget QStatusBar statusbar
+2021-11-12 12:21:58,863 - new topwidget <windows.DrawWindow object at 0x000001D2B3B88790>
+2021-11-12 12:21:58,864 - pop widget DrawWindow DrawWindow
+2021-11-12 12:21:58,864 - new topwidget None
+2021-11-12 12:21:58,866 - uiname is ColorWindow
+2021-11-12 12:21:58,866 - toplevel widget is ColorWindow
+2021-11-12 12:21:58,866 - setting property geometry
+2021-11-12 12:21:58,866 - setting property windowTitle
+2021-11-12 12:21:58,866 - push ColorWindow ColorWindow
+2021-11-12 12:21:58,866 - push QWidget centralwidget
+2021-11-12 12:21:58,866 - setting property geometry
+2021-11-12 12:21:58,866 - push QWidget verticalLayoutWidget
+2021-11-12 12:21:58,866 - setting property pyuicMargins
+2021-11-12 12:21:58,866 - push QVBoxLayout verticalLayout
+2021-11-12 12:21:58,867 - setting property text
+2021-11-12 12:21:58,867 - push QPushButton RedButton
+2021-11-12 12:21:58,867 - pop widget QPushButton RedButton
+2021-11-12 12:21:58,867 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E06D30>
+2021-11-12 12:21:58,867 - setting property text
+2021-11-12 12:21:58,867 - push QPushButton GreenButton
+2021-11-12 12:21:58,867 - pop widget QPushButton GreenButton
+2021-11-12 12:21:58,867 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E06D30>
+2021-11-12 12:21:58,867 - setting property text
+2021-11-12 12:21:58,867 - push QPushButton BlueButton
+2021-11-12 12:21:58,867 - pop widget QPushButton BlueButton
+2021-11-12 12:21:58,867 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E06D30>
+2021-11-12 12:21:58,867 - setting property text
+2021-11-12 12:21:58,867 - push QPushButton AllButton
+2021-11-12 12:21:58,868 - pop widget QPushButton AllButton
+2021-11-12 12:21:58,868 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E06D30>
+2021-11-12 12:21:58,868 - pop layout QVBoxLayout verticalLayout
+2021-11-12 12:21:58,868 - pop widget QWidget verticalLayoutWidget
+2021-11-12 12:21:58,868 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E06C10>
+2021-11-12 12:21:58,868 - pop widget QWidget centralwidget
+2021-11-12 12:21:58,868 - new topwidget <windows.ColorWindow object at 0x000001D2B3E06B80>
+2021-11-12 12:21:58,868 - setting property geometry
+2021-11-12 12:21:58,868 - push QMenuBar menubar
+2021-11-12 12:21:58,868 - pop widget QMenuBar menubar
+2021-11-12 12:21:58,868 - new topwidget <windows.ColorWindow object at 0x000001D2B3E06B80>
+2021-11-12 12:21:58,869 - push QStatusBar statusbar
+2021-11-12 12:21:58,869 - pop widget QStatusBar statusbar
+2021-11-12 12:21:58,869 - new topwidget <windows.ColorWindow object at 0x000001D2B3E06B80>
+2021-11-12 12:21:58,869 - pop widget ColorWindow ColorWindow
+2021-11-12 12:21:58,869 - new topwidget None
+2021-11-12 12:21:58,871 - uiname is RotateWindow
+2021-11-12 12:21:58,871 - toplevel widget is RotateWindow
+2021-11-12 12:21:58,871 - setting property geometry
+2021-11-12 12:21:58,871 - setting property windowTitle
+2021-11-12 12:21:58,871 - push RotateWindow RotateWindow
+2021-11-12 12:21:58,871 - push QWidget centralwidget
+2021-11-12 12:21:58,871 - setting property geometry
+2021-11-12 12:21:58,871 - push QWidget verticalLayoutWidget
+2021-11-12 12:21:58,872 - setting property pyuicMargins
+2021-11-12 12:21:58,872 - push QVBoxLayout verticalLayout
+2021-11-12 12:21:58,872 - setting property text
+2021-11-12 12:21:58,872 - push QPushButton RightButton
+2021-11-12 12:21:58,872 - pop widget QPushButton RightButton
+2021-11-12 12:21:58,872 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E17310>
+2021-11-12 12:21:58,872 - setting property text
+2021-11-12 12:21:58,872 - push QPushButton LeftButton
+2021-11-12 12:21:58,872 - pop widget QPushButton LeftButton
+2021-11-12 12:21:58,872 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E17310>
+2021-11-12 12:21:58,872 - pop layout QVBoxLayout verticalLayout
+2021-11-12 12:21:58,872 - pop widget QWidget verticalLayoutWidget
+2021-11-12 12:21:58,872 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E171F0>
+2021-11-12 12:21:58,872 - pop widget QWidget centralwidget
+2021-11-12 12:21:58,872 - new topwidget <windows.RotateWindow object at 0x000001D2B3E17160>
+2021-11-12 12:21:58,873 - setting property geometry
+2021-11-12 12:21:58,873 - push QMenuBar menubar
+2021-11-12 12:21:58,873 - pop widget QMenuBar menubar
+2021-11-12 12:21:58,873 - new topwidget <windows.RotateWindow object at 0x000001D2B3E17160>
+2021-11-12 12:21:58,873 - push QStatusBar statusbar
+2021-11-12 12:21:58,873 - pop widget QStatusBar statusbar
+2021-11-12 12:21:58,873 - new topwidget <windows.RotateWindow object at 0x000001D2B3E17160>
+2021-11-12 12:21:58,873 - pop widget RotateWindow RotateWindow
+2021-11-12 12:21:58,873 - new topwidget None
+2021-11-12 12:21:58,875 - uiname is ReflectWindow
+2021-11-12 12:21:58,875 - toplevel widget is ReflectWindow
+2021-11-12 12:21:58,875 - setting property geometry
+2021-11-12 12:21:58,876 - setting property windowTitle
+2021-11-12 12:21:58,876 - push ReflectWindow ReflectWindow
+2021-11-12 12:21:58,876 - push QWidget centralwidget
+2021-11-12 12:21:58,876 - setting property geometry
+2021-11-12 12:21:58,876 - push QWidget verticalLayoutWidget
+2021-11-12 12:21:58,876 - setting property pyuicMargins
+2021-11-12 12:21:58,876 - push QVBoxLayout verticalLayout
+2021-11-12 12:21:58,876 - setting property text
+2021-11-12 12:21:58,876 - push QPushButton VerticalButton
+2021-11-12 12:21:58,876 - pop widget QPushButton VerticalButton
+2021-11-12 12:21:58,876 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E17790>
+2021-11-12 12:21:58,876 - setting property text
+2021-11-12 12:21:58,876 - push QPushButton HorizontalButton
+2021-11-12 12:21:58,876 - pop widget QPushButton HorizontalButton
+2021-11-12 12:21:58,877 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E17790>
+2021-11-12 12:21:58,877 - pop layout QVBoxLayout verticalLayout
+2021-11-12 12:21:58,877 - pop widget QWidget verticalLayoutWidget
+2021-11-12 12:21:58,877 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E17670>
+2021-11-12 12:21:58,877 - pop widget QWidget centralwidget
+2021-11-12 12:21:58,877 - new topwidget <windows.ReflectWindow object at 0x000001D2B3E175E0>
+2021-11-12 12:21:58,877 - setting property geometry
+2021-11-12 12:21:58,877 - push QMenuBar menubar
+2021-11-12 12:21:58,877 - pop widget QMenuBar menubar
+2021-11-12 12:21:58,877 - new topwidget <windows.ReflectWindow object at 0x000001D2B3E175E0>
+2021-11-12 12:21:58,877 - push QStatusBar statusbar
+2021-11-12 12:21:58,877 - pop widget QStatusBar statusbar
+2021-11-12 12:21:58,878 - new topwidget <windows.ReflectWindow object at 0x000001D2B3E175E0>
+2021-11-12 12:21:58,878 - pop widget ReflectWindow ReflectWindow
+2021-11-12 12:21:58,878 - new topwidget None
+2021-11-12 12:21:58,880 - uiname is AlphaWindow
+2021-11-12 12:21:58,880 - toplevel widget is AlphaWindow
+2021-11-12 12:21:58,880 - setting property geometry
+2021-11-12 12:21:58,880 - setting property windowTitle
+2021-11-12 12:21:58,880 - push AlphaWindow AlphaWindow
+2021-11-12 12:21:58,880 - push QWidget centralwidget
+2021-11-12 12:21:58,880 - setting property geometry
+2021-11-12 12:21:58,880 - push QWidget verticalLayoutWidget
+2021-11-12 12:21:58,880 - setting property pyuicMargins
+2021-11-12 12:21:58,880 - push QVBoxLayout verticalLayout
+2021-11-12 12:21:58,881 - setting property minimum
+2021-11-12 12:21:58,881 - setting property maximum
+2021-11-12 12:21:58,881 - setting property singleStep
+2021-11-12 12:21:58,881 - setting property value
+2021-11-12 12:21:58,881 - setting property sliderPosition
+2021-11-12 12:21:58,881 - setting property orientation
+2021-11-12 12:21:58,882 - push QSlider AlphaSlider
+2021-11-12 12:21:58,882 - pop widget QSlider AlphaSlider
+2021-11-12 12:21:58,882 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E17C10>
+2021-11-12 12:21:58,882 - pop layout QVBoxLayout verticalLayout
+2021-11-12 12:21:58,882 - pop widget QWidget verticalLayoutWidget
+2021-11-12 12:21:58,882 - new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001D2B3E17AF0>
+2021-11-12 12:21:58,882 - pop widget QWidget centralwidget
+2021-11-12 12:21:58,882 - new topwidget <windows.AlphaWindow object at 0x000001D2B3E17A60>
+2021-11-12 12:21:58,882 - setting property geometry
+2021-11-12 12:21:58,882 - push QMenuBar menubar
+2021-11-12 12:21:58,882 - pop widget QMenuBar menubar
+2021-11-12 12:21:58,882 - new topwidget <windows.AlphaWindow object at 0x000001D2B3E17A60>
+2021-11-12 12:21:58,883 - push QStatusBar statusbar
+2021-11-12 12:21:58,883 - pop widget QStatusBar statusbar
+2021-11-12 12:21:58,883 - new topwidget <windows.AlphaWindow object at 0x000001D2B3E17A60>
+2021-11-12 12:21:58,883 - pop widget AlphaWindow AlphaWindow
+2021-11-12 12:21:58,883 - new topwidget None
+2021-11-12 12:27:06,724 - Importing BlpImagePlugin
+2021-11-12 12:27:06,725 - Importing BmpImagePlugin
+2021-11-12 12:27:06,725 - Importing BufrStubImagePlugin
+2021-11-12 12:27:06,725 - Importing CurImagePlugin
+2021-11-12 12:27:06,726 - Importing DcxImagePlugin
+2021-11-12 12:27:06,727 - Importing DdsImagePlugin
+2021-11-12 12:27:06,727 - Importing EpsImagePlugin
+2021-11-12 12:27:06,747 - Importing FitsStubImagePlugin
+2021-11-12 12:27:06,747 - Importing FliImagePlugin
+2021-11-12 12:27:06,748 - Importing FpxImagePlugin
+2021-11-12 12:27:06,749 - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2021-11-12 12:27:06,749 - Importing FtexImagePlugin
+2021-11-12 12:27:06,749 - Importing GbrImagePlugin
+2021-11-12 12:27:06,750 - Importing GifImagePlugin
+2021-11-12 12:27:06,750 - Importing GribStubImagePlugin
+2021-11-12 12:27:06,750 - Importing Hdf5StubImagePlugin
+2021-11-12 12:27:06,751 - Importing IcnsImagePlugin
+2021-11-12 12:27:06,752 - Importing IcoImagePlugin
+2021-11-12 12:27:06,753 - Importing ImImagePlugin
+2021-11-12 12:27:06,754 - Importing ImtImagePlugin
+2021-11-12 12:27:06,754 - Importing IptcImagePlugin
+2021-11-12 12:27:06,755 - Importing JpegImagePlugin
+2021-11-12 12:27:06,755 - Importing Jpeg2KImagePlugin
+2021-11-12 12:27:06,755 - Importing McIdasImagePlugin
+2021-11-12 12:27:06,756 - Importing MicImagePlugin
+2021-11-12 12:27:06,757 - Image: failed to import MicImagePlugin: No module named 'olefile'
+2021-11-12 12:27:06,757 - Importing MpegImagePlugin
+2021-11-12 12:27:06,757 - Importing MpoImagePlugin
+2021-11-12 12:27:06,758 - Importing MspImagePlugin
+2021-11-12 12:27:06,758 - Importing PalmImagePlugin
+2021-11-12 12:27:06,759 - Importing PcdImagePlugin
+2021-11-12 12:27:06,760 - Importing PcxImagePlugin
+2021-11-12 12:27:06,760 - Importing PdfImagePlugin
+2021-11-12 12:27:06,769 - Importing PixarImagePlugin
+2021-11-12 12:27:06,770 - Importing PngImagePlugin
+2021-11-12 12:27:06,770 - Importing PpmImagePlugin
+2021-11-12 12:27:06,770 - Importing PsdImagePlugin
+2021-11-12 12:27:06,770 - Importing SgiImagePlugin
+2021-11-12 12:27:06,771 - Importing SpiderImagePlugin
+2021-11-12 12:27:06,771 - Importing SunImagePlugin
+2021-11-12 12:27:06,772 - Importing TgaImagePlugin
+2021-11-12 12:27:06,772 - Importing TiffImagePlugin
+2021-11-12 12:27:06,772 - Importing WebPImagePlugin
+2021-11-12 12:27:06,774 - Importing WmfImagePlugin
+2021-11-12 12:27:06,774 - Importing XbmImagePlugin
+2021-11-12 12:27:06,776 - Importing XpmImagePlugin
+2021-11-12 12:27:06,777 - Importing XVThumbImagePlugin
+2021-11-12 12:27:18,302 - Function "from_filename"
+2021-11-12 12:27:21,042 - Function "draw_square"
+2021-11-12 12:27:21,042 - Function "convert_color"
+2021-11-12 12:27:21,042 - Function "convert_color"
+2021-11-12 12:27:21,044 - Function "update"
+2021-11-12 12:27:21,044 - Function "save"
+2021-11-12 12:27:22,339 - Function "from_bytes"
+2021-11-12 12:27:22,339 - Function "set_new_image"
+2021-11-12 12:27:22,347 - Function "save"
+2021-11-12 12:27:25,635 - Function "from_bytes"
+2021-11-12 12:27:25,635 - Function "set_new_image"
+2021-11-12 12:27:25,640 - Function "save"
+2021-11-12 12:27:26,765 - Function "from_bytes"
+2021-11-12 12:27:26,765 - Function "set_new_image"
+2021-11-12 12:27:26,770 - Function "save"
+2021-11-12 12:27:28,826 - Function "save"
+2021-11-12 12:27:34,171 - Function "from_filename"
+2021-11-12 13:09:08,083 - Importing BlpImagePlugin
+2021-11-12 13:09:08,084 - Importing BmpImagePlugin
+2021-11-12 13:09:08,084 - Importing BufrStubImagePlugin
+2021-11-12 13:09:08,084 - Importing CurImagePlugin
+2021-11-12 13:09:08,084 - Importing DcxImagePlugin
+2021-11-12 13:09:08,085 - Importing DdsImagePlugin
+2021-11-12 13:09:08,086 - Importing EpsImagePlugin
+2021-11-12 13:09:08,105 - Importing FitsStubImagePlugin
+2021-11-12 13:09:08,106 - Importing FliImagePlugin
+2021-11-12 13:09:08,106 - Importing FpxImagePlugin
+2021-11-12 13:09:08,107 - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2021-11-12 13:09:08,107 - Importing FtexImagePlugin
+2021-11-12 13:09:08,108 - Importing GbrImagePlugin
+2021-11-12 13:09:08,108 - Importing GifImagePlugin
+2021-11-12 13:09:08,108 - Importing GribStubImagePlugin
+2021-11-12 13:09:08,109 - Importing Hdf5StubImagePlugin
+2021-11-12 13:09:08,109 - Importing IcnsImagePlugin
+2021-11-12 13:09:08,111 - Importing IcoImagePlugin
+2021-11-12 13:09:08,111 - Importing ImImagePlugin
+2021-11-12 13:09:08,112 - Importing ImtImagePlugin
+2021-11-12 13:09:08,112 - Importing IptcImagePlugin
+2021-11-12 13:09:08,113 - Importing JpegImagePlugin
+2021-11-12 13:09:08,113 - Importing Jpeg2KImagePlugin
+2021-11-12 13:09:08,113 - Importing McIdasImagePlugin
+2021-11-12 13:09:08,113 - Importing MicImagePlugin
+2021-11-12 13:09:08,114 - Image: failed to import MicImagePlugin: No module named 'olefile'
+2021-11-12 13:09:08,115 - Importing MpegImagePlugin
+2021-11-12 13:09:08,115 - Importing MpoImagePlugin
+2021-11-12 13:09:08,115 - Importing MspImagePlugin
+2021-11-12 13:09:08,116 - Importing PalmImagePlugin
+2021-11-12 13:09:08,117 - Importing PcdImagePlugin
+2021-11-12 13:09:08,117 - Importing PcxImagePlugin
+2021-11-12 13:09:08,118 - Importing PdfImagePlugin
+2021-11-12 13:09:08,127 - Importing PixarImagePlugin
+2021-11-12 13:09:08,127 - Importing PngImagePlugin
+2021-11-12 13:09:08,127 - Importing PpmImagePlugin
+2021-11-12 13:09:08,127 - Importing PsdImagePlugin
+2021-11-12 13:09:08,128 - Importing SgiImagePlugin
+2021-11-12 13:09:08,128 - Importing SpiderImagePlugin
+2021-11-12 13:09:08,129 - Importing SunImagePlugin
+2021-11-12 13:09:08,129 - Importing TgaImagePlugin
+2021-11-12 13:09:08,130 - Importing TiffImagePlugin
+2021-11-12 13:09:08,130 - Importing WebPImagePlugin
+2021-11-12 13:09:08,131 - Importing WmfImagePlugin
+2021-11-12 13:09:08,131 - Importing XbmImagePlugin
+2021-11-12 13:09:08,133 - Importing XpmImagePlugin
+2021-11-12 13:09:08,133 - Importing XVThumbImagePlugin

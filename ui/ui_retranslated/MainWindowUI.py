@@ -9,6 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+import ui.resources.resources
 
 
 class Ui_MainWindow(object):
@@ -155,6 +156,3 @@ class Ui_MainWindow(object):
         self.actionUndo.setShortcut(_translate("MainWindow", "Ctrl+Z"))
         self.actionRedo.setText(_translate("MainWindow", "Redo"))
         self.actionRedo.setShortcut(_translate("MainWindow", "Ctrl+Shift+Z"))
-
-
-import ui.resources.resources
