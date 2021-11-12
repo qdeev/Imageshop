@@ -1,8 +1,9 @@
-from constants import *
+from declarations import *
 from PyQt5.QtWidgets import QApplication
 
 
 def main(argc: int, argv: List[str]):
+    """starts the program"""
     from windows import MainWindow
     app = QApplication(sys.argv)
     window = MainWindow()
